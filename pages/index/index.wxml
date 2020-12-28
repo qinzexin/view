@@ -1,0 +1,26 @@
+
+<view class="title">  
+  <view class="left">影院热线</view>
+  <view class="right">查看更多》</view>
+</view>
+<scroll-view scroll-x="true">
+<view class="desc-box">
+  <view class="desc" wx:for="{{data}}" wx:key="key">
+    <!-- <navigator url="/pages/desc/desc?goods_id=12" open-type="switchTab" hover-class="other-navigator-hover"> -->
+      <navigator class="lists" url="/pages/desc/desc?id={{item.goods_id}}">
+    <view class="image">
+      <image src="{{item.goods_image}}" alt="" />
+    </view>
+    <view class="name">
+      {{item.goods_name}}
+    </view>
+    <view class="score">
+          ⭐⭐⭐⭐⭐
+    </view>
+    </navigator>
+  </view>
+</view>
+</scroll-view>
+
+
+

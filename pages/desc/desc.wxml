@@ -1,0 +1,21 @@
+
+  <image src="{{data.goods_image}}"></image>
+  <view>
+    <view>电影名称:</view>
+    <view>{{data.goods_name}}</view>
+    <view>评论数量:{{data.count}}</view>
+  </view>
+  <view>
+    评论内容：
+    <view>{{data.desc}}</view>
+  </view>
+
+  <navigator class="lists" url="/pages/comment/comment?id={{data.g_id}}">
+  点击评论
+  </navigator>
+  <button plain='true' open-type='share'>
+    点我转发
+</button>
+ 
+    
+

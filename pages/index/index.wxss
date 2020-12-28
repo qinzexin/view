@@ -1,0 +1,62 @@
+.top{
+  width: 750rpx;
+  height: 100rpx;
+  background: #4ab656;
+  line-height: 120rpx;
+  padding-top: 15rpx;
+}
+input{
+  width: 700rpx;
+  height: 80rpx;
+  margin-left: 25rpx;
+  background: white;
+  border-radius: 10rpx;
+}
+.icon-fangdajing01{
+  position: absolute;
+  top: -5rpx;
+  left: 315rpx;
+  font-size: 50rpx;
+  color: rgb(161, 128, 128);
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  width: 700rpx;
+  height: 100rpx;
+  /* background: #4ab656; */
+  line-height: 100rpx;
+  margin-left: 25rpx;
+}
+.left{
+  font-weight: bolder;
+}
+.right{
+  font-weight: bolder;
+  color: #4ab656;
+}
+/* 影片内容部分。。。。。。。。。。。。。。。。 */
+.desc-box{
+  width: 750rpx;
+  height: 360rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.desc{
+  margin-left: 15rpx;
+  width: 210rpx;
+  height: 360rpx;
+}
+.image image{
+  margin-left: 13rpx;
+  width: 180rpx;
+  height: 260rpx;
+  border-right: 10rpx;
+}
+.name{
+  text-align: center;
+}
+.score{
+  margin-left: 10rpx;
+  color: #FFD700;
+}
